@@ -1,0 +1,281 @@
+@media(max-width:768px){
+    header{
+        top: 0px !important;
+    }
+    .header_list{
+        display: none;
+    }
+    .header_logo{
+        float: left;
+        padding: 20px 40px;
+        letter-spacing: 3px;
+        font-size: 15px;
+        font-weight: bold;
+        position: relative;
+        left: -30px;
+    }
+    .strip{
+        display: none;
+    }
+    .header_logo img{
+        width: 25%;
+    }
+    /* .active1{
+        background: rgb(63, 93, 128);
+    } */
+    .logo_head span{
+        font-size: 10px;
+        top: 19px;
+        left: 0px;
+    }
+    .logo_head{
+        font-size: 13px;
+        left: 80px;
+        top: -40px;
+    }
+
+    /* side menu */
+
+    #sidemenu{
+        display: block !important;
+        padding: 5px;
+    }
+    /* .nav_links{
+    display: none;
+    }     */
+    #toggle_menu{
+        float: right;
+        height: 35px;
+        width: 35px;
+        position: relative;
+        /*top: -95px;*/
+        top: 16px;
+        display: block;
+    }
+    #toggle_menu span{
+        display: block;
+        height: 4px;
+        background: black;
+        margin-top: 5px;
+        display: block;
+    }
+    .active2{
+        font-weight: bold;
+        color: black !important;
+    }
+
+    /* carousel */
+
+  
+    .caption{
+        width: 80%;
+        /* background: none; */
+    }
+    .caption h1{
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height:30px;
+        padding-right: 5px;
+        color: lightblue;
+    }
+    .caption p{
+        padding-left: 0px;
+        line-height:20px;
+        font-size: 13px;
+        color: white;
+        padding-right: 6px;
+    }
+    
+    .banner_btn{
+        background: #28a745ba;
+        font-size: 16px;
+    }
+    .banner_container{
+    background-position: center;
+    }
+
+
+    /* about section */
+    
+    .about_text{
+        margin-top: 0px !important;
+    }
+    .about_text h2{
+        padding-left: 0px;
+    }
+    .about_text p{
+        padding-left: 0px;
+    }
+    .about_container{
+       margin-top: 0px;
+       margin-bottom: 20px;
+    }
+    .adout_image img{
+        padding: 0px;
+        margin-top: 20px;
+    }
+    .about_text p{
+        font-size: 15px;
+        line-height: 22px;
+    }
+    
+
+    /* service section */
+
+    .service_section{
+        width: 100%;
+        margin:6px;
+        background: white;
+        float: left;
+        /* box-shadow: 2px 2px 2px 2px #cecece; */
+        margin-bottom: 30px;
+    }
+    #demos .owl-carousel .item{
+        width: 100%;
+    }
+    /*.service_btn{
+        position: relative;
+        left: 35%;
+    }*/
+
+    
+    
+    
+/*    subscrib section*/
+    
+    
+    .full_screen_img{
+        display: none;
+    }
+    .small_screen_img{
+        display: block;
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* testimonials */
+
+    .carousel{
+        height: 100%;
+    }
+    
+
+
+    /* other servise */
+    .other_service{
+        flex-direction: column;
+        height: 550px;
+    }
+    .other_service_text{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .other_service_image img{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    /* contact section */
+
+    address{
+        margin-left: 0px;
+    }
+     .contact_address{
+        font-size: 15px;
+     }
+
+    .inp_text{        
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    textarea{
+        width: 100%;
+    }
+    form{
+        margin-top: 15px;
+    }
+    .brk{
+        display: none;
+    }
+    .cot_btn{
+        position: relative; 
+        right: 0;
+        top:0;
+    }
+    .footer_head{
+        left: 74px;
+        font-size: 14px;
+        width: 81%;
+        top: -40px;
+        }
+        .footer_head span{
+            font-size: 12px;
+        }
+.popup{
+    width: 92%;
+}        
+.popup-form-group{
+    width:calc(100% / 2 - 10px);
+}
+.popup input{
+    width: 100%;
+}
+.designed{
+    float: left;
+    margin-left: 20px;
+}
+   
+}
+
+
+
+
+
+@media(max-width:320px){
+
+     /* side menu */
+
+     #sidemenu{
+        display: block;
+        padding: 5px;
+    }
+    /* .nav_links{
+    display: none;
+    }     */
+    #toggle_menu{
+        float: right;
+        height: 35px;
+        width: 35px;
+        margin-top: 0px;
+        display: block;
+    }
+    #toggle_menu span{
+        display: block;
+        height: 2px;
+        background: black;
+        margin-top: 5px;
+        display: block;
+    }
+
+    /* carousel */
+
+    .carousel-caption h1{
+        color: white;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height:35px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+    /*.banner_btn{
+        padding: 10px 20px;
+        font-size: 15px;
+    }*/
+}
